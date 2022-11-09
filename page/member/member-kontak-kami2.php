@@ -106,74 +106,49 @@ include "../../layout/header.php";
             <div class="content-header row">
             </div>
             <div class="content-body">
-                <div class="row match-height">
-                    <!-- Employee Task Card -->
-                    <!-- <div class="col-lg-4 col-md-6 col-12">
-                    </div> -->
-                    <!--/ Employee Task Card -->
-
-                    <!-- Developer Meetup Card -->
-                    <div class="col-lg-4 col-md-6 col-12">
-                        <div class="card card-developer-meetup">
-                            <div class="meetup-img-wrapper rounded-top text-center">
-                                <img src="../../vendor/app-assets/images/illustration/email.svg" alt="Meeting Pic" height="170" />
-                            </div>
-                            <div class="card-body">
-                                <div class="meetup-header d-flex align-items-center">
-                                    <div class="meetup-day">
-                                        <h6 class="mb-0"> <?php echo date("D"); ?></h6>
-                                        <h3 class="mb-0"> <?php echo date("j"); ?></h3>
-                                    </div>
-                                    <div class="my-auto">
-                                        <h4 class="card-title mb-25">SINEMA</h4>
-                                        <p class="card-text mb-0">Sistem Informasi Kerjasama</p>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <div class="avatar bg-light-primary rounded mr-1">
-                                        <div class="avatar-content">
-                                            <i data-feather="calendar" class="avatar-icon font-medium-3"></i>
+                <section id="dashboard-ecommerce">
+                    <div class="row match-height">
+                        <!-- center profile info section -->
+                        <div class="col-lg-12">
+                            <!-- post 1 -->
+                            <div class="card">
+                                <div class="card-body">
+                                    <b>UNIVERSITAS BHAMADA SLAWI <br /></b>
+                                    Email: info@bhamada.ac.id <br />
+                                    Telephone: (0283) 6197570 <br />
+                                    Alamat: Jl. Cut Nyak Dhien No.16, Desa Kalisapu, Kecamatan Slawi, <br />
+                                    Kabupaten Tegal 52416
+                                    </p>
+                                    <div class="u_row">
+                                        <div class="vc_row wpb_row vc_row-fluid">
+                                            <div data-vc-parallax="1.5" data-vc-parallax-o-fade="on" class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill vc_general vc_parallax vc_parallax-content-moving-fade js-vc_parallax-o-fade">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                            <div class="wpb_wrapper">
+                                                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15840.597139666424!2d109.1204575!3d-6.9916918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x883656d1325ef066!2sUniversitas%20Bhamada%20Slawi!5e0!3m2!1sid!2sid!4v1656900064820!5m2!1sid!2sid" width="890" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="media-body">
-                                        <?php date("F j, Y, g:i a"); ?>
-                                        <h6 class="mb-0"><?php echo date("F j, Y"); ?></h6>
-                                        <small><?php echo date("g:i a"); ?></small>
-                                    </div>
-                                </div>
-                                <div class="media">
-                                    <div class="avatar bg-light-primary rounded mr-1">
-                                        <div class="avatar-content">
-                                            <i data-feather="map-pin" class="avatar-icon font-medium-3"></i>
-                                        </div>
-                                    </div>
-                                    <div class="media-body">
-                                        <h6 class="mb-0">Central Park</h6>
-                                        <small>Manhattan, New york City</small>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--/ Developer Meetup Card -->
+                </section>
+                <!-- END: Content-->
 
-                    <!-- Profile Card -->
-                    <div class="col-lg-4 col-md-6 col-12">
-                    </div>
-                    <!--/ Profile Card -->
-                </div>
-            </div>
-        </div>
-        <!-- END: Content-->
-
-        <div class="sidenav-overlay"></div>
-        <div class="drag-target"></div>
+                <div class="sidenav-overlay"></div>
+                <div class="drag-target"></div>
 
 
-        <?php
-        include "../../layout/footer.php";
-        ?>
 
+                <?php
+                include "../../layout/header.php";
+                ?>
 </body>
 <!-- END: Body-->
 

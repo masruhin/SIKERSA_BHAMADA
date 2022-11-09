@@ -1,49 +1,23 @@
-<!DOCTYPE html>
-<html class="loading" lang="en" data-textdirection="ltr">
-<!-- BEGIN: Head-->
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
-  <meta name="description" content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-  <meta name="keywords" content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
-  <meta name="author" content="PIXINVENT">
-  <title>Chartjs - Vuexy - Bootstrap HTML admin template</title>
-  <link rel="apple-touch-icon" href="../../vendor/app-assets/images/ico/apple-icon-120.png">
-  <link rel="shortcut icon" type="image/x-icon" href="../../vendor/app-assets/images/ico/favicon.ico">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600" rel="stylesheet">
-
-  <!-- BEGIN: Vendor CSS-->
-  <link rel="stylesheet" type="text/css" href="../../vendor/app-assets/vendors/css/vendors.min.css">
-  <link rel="stylesheet" type="text/css" href="../../vendor/app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
-  <!-- END: Vendor CSS-->
-
-  <!-- BEGIN: Theme CSS-->
-  <link rel="stylesheet" type="text/css" href="../../vendor/app-assets/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="../../vendor/app-assets/css/bootstrap-extended.css">
-  <link rel="stylesheet" type="text/css" href="../../vendor/app-assets/css/colors.css">
-  <link rel="stylesheet" type="text/css" href="../../vendor/app-assets/css/components.css">
-  <link rel="stylesheet" type="text/css" href="../../vendor/app-assets/css/themes/dark-layout.css">
-  <link rel="stylesheet" type="text/css" href="../../vendor/app-assets/css/themes/bordered-layout.css">
-  <link rel="stylesheet" type="text/css" href="../../vendor/app-assets/css/themes/semi-dark-layout.css">
-
-  <!-- BEGIN: Page CSS-->
-  <link rel="stylesheet" type="text/css" href="../../vendor/app-assets/css/core/menu/menu-types/horizontal-menu.css">
-  <link rel="stylesheet" type="text/css" href="../../vendor/app-assets/css/plugins/forms/pickers/form-flat-pickr.css">
-  <!-- END: Page CSS-->
-
-  <!-- BEGIN: Custom CSS-->
-  <link rel="stylesheet" type="text/css" href="../../vendor/assets/css/style.css">
-  <!-- END: Custom CSS-->
-
-</head>
-<!-- END: Head-->
-
+<?php
+include "../../layout/header.php";
+?>
 <!-- BEGIN: Body-->
 
 <body class="horizontal-layout horizontal-menu  navbar-floating footer-static  " data-open="hover" data-menu="horizontal-menu" data-col="">
 
+  <!-- BEGIN: Header-->
+  <nav class="header-navbar navbar-expand-lg navbar navbar-fixed align-items-center navbar-shadow navbar-brand-center" data-nav="brand-center">
+    <div class="navbar-header d-xl-block d-none">
+    </div>
+    <div class="navbar-container d-flex content">
+      <div class="bookmark-wrapper d-flex align-items-center">
+        <ul class="nav navbar-nav d-xl-none">
+          <li class="nav-item"><a class="nav-link menu-toggle" href="javascript:void(0);"><i class="ficon" data-feather="menu"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END: Header-->
 
 
   <!-- BEGIN: Main Menu-->
@@ -81,12 +55,10 @@
         </ul>
       </div>
       <div class="shadow-bottom"></div>
-      <!-- Horizontal menu content-->
       <div class="navbar-container main-menu-content" data-menu="menu-container">
-        <!-- include ../../vendor/includes/mixins-->
         <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
           <li data-menu="">
-            <a class="dropdown-item d-flex align-items-center" href="#">
+            <a class="dropdown-item d-flex align-items-center" href="member-dashboard.php">
               <i data-feather="home"></i><span data-i18n="Documentation">Home</span>
             </a>
           </li>
@@ -121,11 +93,9 @@
             </a>
           </li>
         </ul>
-
       </div>
     </div>
   </div>
-
   <!-- END: Main Menu-->
 
   <!-- BEGIN: Content-->
@@ -187,36 +157,11 @@
   <div class="sidenav-overlay"></div>
   <div class="drag-target"></div>
 
+  <?php
+  include "../../layout/footer.php";
+  ?>
 
 
-  <!-- BEGIN: Vendor JS-->
-  <script src="../../vendor/app-assets/vendors/js/vendors.min.js"></script>
-  <!-- BEGIN Vendor JS-->
-
-  <!-- BEGIN: Page Vendor JS-->
-  <script src="../../vendor/app-assets/vendors/js/charts/chart.min.js"></script>
-  <script src="../../vendor/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
-  <!-- END: Page Vendor JS-->
-
-  <!-- BEGIN: Theme JS-->
-  <script src="../../vendor/app-assets/js/core/app-menu.js"></script>
-  <script src="../../vendor/app-assets/js/core/app.js"></script>
-  <!-- END: Theme JS-->
-
-  <!-- BEGIN: Page JS-->
-  <script src="../../vendor/app-assets/js/scripts/charts/chart-chartjs.js"></script>
-  <!-- END: Page JS-->
-
-  <script>
-    $(window).on('load', function() {
-      if (feather) {
-        feather.replace({
-          width: 14,
-          height: 14
-        });
-      }
-    })
-  </script>
 </body>
 <!-- END: Body-->
 

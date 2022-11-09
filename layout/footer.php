@@ -1,31 +1,51 @@
 <!-- BEGIN: Footer-->
 <footer class="footer footer-static footer-light">
-  <p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2021<a class="ml-25" href="https://1.envato.market/pixinvent_portfolio" target="_blank">Pixinvent</a><span class="d-none d-sm-inline-block">, All rights Reserved</span></span><span class="float-md-right d-none d-md-block">Hand-crafted & Made with<i data-feather="heart"></i></span></p>
+  <p class="clearfix mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2021<a class="ml-25" href="#" target="_blank">Development</a></span></p>
 </footer>
 <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
 <!-- END: Footer-->
 
 <!-- BEGIN: Page Vendor JS-->
-<script src="../vendor/app-assets/vendors/js/vendors.min.js"></script>
+<!-- <script src="../vendor/app-assets/vendors/js/vendors.min.js"></script> -->
 <script src="../vendor/app-assets/vendors/js/ui/jquery.sticky.js"></script>
 <!-- END: Page Vendor JS-->
 
 <!-- BEGIN: Theme JS-->
-<script src="../vendor/app-assets/js/core/app-menu.js"></script>
-<script src="../vendor/app-assets/js/core/app.js"></script>
+<!-- <script src="../vendor/app-assets/js/core/app-menu.js"></script> -->
+<!-- <script src="../vendor/app-assets/js/core/app.js"></script> -->
 <!-- END: Theme JS-->
 
 <!-- BEGIN: Page JS CHART JS-->
-<script src="../vendor/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
-<script src="../vendor/app-assets/js/scripts/pages/dashboard-ecommerce.min.js"></script>
+<!-- <script src="../vendor/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script> -->
+<script src="../../vendor/app-assets/js/scripts/pages/dashboard-ecommerce.min.js"></script>
 
 <!-- END: Page JS-->
-<script src="../vendor/app-assets/js/scripts/pages/app-ecommerce-details.js"></script>
+<script src="../../vendor/app-assets/js/scripts/pages/app-ecommerce-details.js"></script>
 
 <!-- chart js -->
-<script src="../vendor/app-assets/vendors/js/charts/chart.min.js"></script>
-<script src="../vendor/app-assets/js/scripts/charts/chart-chartjs.js"></script>
+<!-- <script src="../vendor/app-assets/vendors/js/charts/chart.min.js"></script> -->
+<!-- <script src="../vendor/app-assets/js/scripts/charts/chart-chartjs.js"></script> -->
 <!-- chart js -->
+
+
+<!-- BEGIN: Vendor JS-->
+<script src="../../vendor/app-assets/vendors/js/vendors.min.js"></script>
+<!-- BEGIN Vendor JS-->
+
+<!-- BEGIN: Page Vendor JS-->
+<script src="../../vendor/app-assets/vendors/js/charts/chart.min.js"></script>
+<script src="../../vendor/app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+<!-- END: Page Vendor JS-->
+
+<!-- BEGIN: Theme JS-->
+<script src="../../vendor/app-assets/js/core/app-menu.js"></script>
+<script src="../../vendor/app-assets/js/core/app.js"></script>
+<!-- END: Theme JS-->
+
+<!-- BEGIN: Page JS-->
+<script src="../../vendor/app-assets/js/scripts/charts/chart-chartjs.js"></script>
+<!-- END: Page JS-->
+
 <script>
   $(window).on('load', function() {
     if (feather) {
