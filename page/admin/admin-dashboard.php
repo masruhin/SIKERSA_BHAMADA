@@ -145,6 +145,23 @@ include "../../layout/header.php";
                   <i data-feather="life-buoy"></i>
                   <span data-i18n="Raise Support">Pengaturan akun</span></a>
               </li>
+              <li data-menu="">
+                <a class="dropdown-item d-flex align-items-center" href="#" data-toggle="dropdown" data-i18n="Raise Support" target="_blank">
+                  <i data-feather="life-buoy"></i>
+                  <span data-i18n="Raise Support">Pengaturan Website</span></a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown nav-item" data-menu="dropdown">
+            <a class="dropdown-toggle nav-link d-flex align-items-center" href="#" data-toggle="dropdown">
+              <i data-feather="Users"></i>
+              <span data-i18n="Misc">Users</span></a>
+            <ul class="dropdown-menu">
+              <li data-menu="">
+                <a class="dropdown-item d-flex align-items-center" href="#" data-toggle="dropdown" data-i18n="Raise Support" target="_blank">
+                  <i data-feather="life-buoy"></i>
+                  <span data-i18n="Raise Support">Laporan Kerjasama</span></a>
+              </li>
             </ul>
           </li>
           <li data-menu="">

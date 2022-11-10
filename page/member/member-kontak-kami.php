@@ -21,7 +21,6 @@ include "../../layout/header.php";
 
 
   <!-- BEGIN: Main Menu-->
-
   <div class="horizontal-menu-wrapper">
     <div class="header-navbar navbar-expand-sm navbar navbar-horizontal floating-nav navbar-light navbar-shadow menu-border container-xxl" role="navigation" data-menu="menu-wrapper" data-menu-type="floating-nav">
       <div class="navbar-header">
@@ -56,10 +55,12 @@ include "../../layout/header.php";
         </ul>
       </div>
       <div class="shadow-bottom"></div>
+      <!-- Horizontal menu content-->
       <div class="navbar-container main-menu-content" data-menu="menu-container">
+        <!-- include ../../vendor/includes/mixins-->
         <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
           <li data-menu="">
-            <a class="dropdown-item d-flex align-items-center" href="#">
+            <a class="dropdown-item d-flex align-items-center" href="member-dashboard.php">
               <i data-feather="home"></i><span data-i18n="Documentation">Home</span>
             </a>
           </li>
@@ -70,7 +71,7 @@ include "../../layout/header.php";
             </a>
           </li>
           <li data-menu="">
-            <a class="dropdown-item d-flex align-items-center" href="#">
+            <a class="dropdown-item d-flex align-items-center" href="">
               <i data-feather="download"></i>
               <span data-i18n="Documentation">Download</span>
             </a>
@@ -94,6 +95,7 @@ include "../../layout/header.php";
             </a>
           </li>
         </ul>
+
       </div>
     </div>
   </div>

@@ -1,5 +1,4 @@
-
-<?php 
+<?php
 include "../../layout/header.php";
 ?>
 <!-- BEGIN: Body-->
@@ -56,21 +55,23 @@ include "../../layout/header.php";
                 </ul>
             </div>
             <div class="shadow-bottom"></div>
+            <!-- Horizontal menu content-->
             <div class="navbar-container main-menu-content" data-menu="menu-container">
+                <!-- include ../../vendor/includes/mixins-->
                 <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
                     <li data-menu="">
-                        <a class="dropdown-item d-flex align-items-center" href="#">
+                        <a class="dropdown-item d-flex align-items-center" href="member-dashboard.php">
                             <i data-feather="home"></i><span data-i18n="Documentation">Home</span>
                         </a>
                     </li>
                     <li data-menu="">
-                        <a class="dropdown-item d-flex align-items-center" href="profile-bhamada.php"  >
+                        <a class="dropdown-item d-flex align-items-center" href="profile-bhamada.php">
                             <i data-feather="bar-chart-2"></i>
                             <span data-i18n="Documentation">Profil</span>
                         </a>
                     </li>
                     <li data-menu="">
-                        <a class="dropdown-item d-flex align-items-center" href="#">
+                        <a class="dropdown-item d-flex align-items-center" href="">
                             <i data-feather="download"></i>
                             <span data-i18n="Documentation">Download</span>
                         </a>
@@ -87,13 +88,14 @@ include "../../layout/header.php";
                             <span data-i18n="Documentation">Statistik</span>
                         </a>
                     </li>
-                     <li data-menu="">
+                    <li data-menu="">
                         <a class="dropdown-item d-flex align-items-center" href="#">
                             <i data-feather="log-in"></i>
                             <span data-i18n="Documentation">Log In</span>
                         </a>
-                    </li>                      
+                    </li>
                 </ul>
+
             </div>
         </div>
     </div>
@@ -107,66 +109,143 @@ include "../../layout/header.php";
             <div class="content-header row">
             </div>
             <div class="content-body">
-                <!-- Dashboard Ecommerce Starts -->
-                <section id="dashboard-ecommerce">
-                    <div class="row match-height">
-                        <!-- Medal Card -->
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="card card-congratulation-medal">
+                <!-- Basic Carousel And Optional Carousel start -->
+                <section id="basic-carousel">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="card">
                                 <div class="card-body">
-                                    <!-- <h5>Universitas</h5> -->
-                                     <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="javascript:void(0);">Universitas</a>
-                                    </h3>
-                                    <p class="card-text font-small-3">Lihat untuk mengetahui lebih lanjut</p>
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="javascript:void(0);">20</a>
-                                    </h3>
-                                    <button type="button" class="btn btn-primary">Lihat</button>
-                                    <img src="../../vendor/app-assets/images/illustration/badge.svg" class="congratulation-medal" alt="Medal Pic" />
+                                    <div id="carousel-example-caption" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carousel-example-caption" data-slide-to="0" class="active"></li>
+                                            <li data-target="#carousel-example-caption" data-slide-to="1"></li>
+                                            <li data-target="#carousel-example-caption" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <img class="img-fluid" src="../../vendor/app-assets/images/slider/09.jpg" alt="First slide" />
+                                                <div class="carousel-caption">
+                                                    <h3 class="text-white">First Slide Label</h3>
+                                                    <p class="text-white">
+                                                        Donut jujubes I love topping I love sweet. Jujubes I love brownie gummi bears I love donut sweet
+                                                        chocolate. Tart chocolate marshmallow.Tart carrot cake muffin.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="img-fluid" src="../../vendor/app-assets/images/slider/08.jpg" alt="Second slide" />
+                                                <div class="carousel-caption">
+                                                    <h3 class="text-white">Second Slide Label</h3>
+                                                    <p class="text-white">
+                                                        Tart macaroon marzipan I love soufflé apple pie wafer. Chocolate bar jelly caramels jujubes
+                                                        chocolate cake gummies. Cupcake cake I love cake danish carrot cake.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="img-fluid" src="../../vendor/app-assets/images/slider/10.jpg" alt="Third slide" />
+                                                <div class="carousel-caption">
+                                                    <h3 class="text-white">Third Slide Label</h3>
+                                                    <p class="text-white">
+                                                        Pudding sweet pie gummies. Chocolate bar sweet tiramisu cheesecake chocolate cotton candy pastry
+                                                        muffin. Marshmallow cake powder icing.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carousel-example-caption" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carousel-example-caption" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!--/ Medal Card -->
-                        
-                        <!-- Medal Card -->
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="card card-congratulation-medal">
-                                <div class="card-body">
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="javascript:void(0);">Fakultas</a>
-                                    </h3>
-                                    <p class="card-text font-small-3">Lihat untuk mengetahui lebih lanjut</p>
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="javascript:void(0);">151</a>
-                                    </h3>
-                                    <button type="button" class="btn btn-primary">Lihat</button>
-                                    <img src="../../vendor/app-assets/images/illustration/badge.svg" class="congratulation-medal" alt="Medal Pic" />
+                        <div class="col-md-6 col-sm-12">
+                            <!-- <div class="row"> -->
+                            <div class="row match-height">
+                                <!-- Medal Card -->
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="card card-congratulation-medal">
+                                        <div class="card-body">
+                                            <!-- <h5>Universitas</h5> -->
+                                            <h3 class="mb-75 mt-2 pt-50">
+                                                <a href="javascript:void(0);">Universitas</a>
+                                            </h3>
+                                            <p class="card-text font-small-3">Lihat untuk mengetahui lebih lanjut</p>
+                                            <h3 class="mb-75 mt-2 pt-50">
+                                                <a href="javascript:void(0);">20</a>
+                                            </h3>
+                                            <button type="button" class="btn btn-primary">Lihat</button>
+                                            <img src="../../vendor/app-assets/images/illustration/badge.svg" class="congratulation-medal" alt="Medal Pic" />
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <!--/ Medal Card -->
+                                <!--/ Medal Card -->
 
-                        <!-- Medal Card -->
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="card card-congratulation-medal">
-                                <div class="card-body">
-                                   <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="javascript:void(0);">Unit</a>
-                                    </h3>
-                                    <p class="card-text font-small-3">Lihat untuk mengetahui lebih lanjut</p>
-                                    <h3 class="mb-75 mt-2 pt-50">
-                                        <a href="javascript:void(0);">70</a>
-                                    </h3>
-                                    <button type="button" class="btn btn-primary">Lihat</button>
-                                    <img src="../../vendor/app-assets/images/illustration/badge.svg" class="congratulation-medal" alt="Medal Pic" />
+                                <!-- Medal Card -->
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="card card-congratulation-medal">
+                                        <div class="card-body">
+                                            <h3 class="mb-75 mt-2 pt-50">
+                                                <a href="javascript:void(0);">Fakultas</a>
+                                            </h3>
+                                            <p class="card-text font-small-3">Lihat untuk mengetahui lebih lanjut</p>
+                                            <h3 class="mb-75 mt-2 pt-50">
+                                                <a href="javascript:void(0);">151</a>
+                                            </h3>
+                                            <button type="button" class="btn btn-primary">Lihat</button>
+                                            <img src="../../vendor/app-assets/images/illustration/badge.svg" class="congratulation-medal" alt="Medal Pic" />
+                                        </div>
+                                    </div>
                                 </div>
+                                <!--/ Medal Card -->
+                                <!-- Medal Card -->
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="card card-congratulation-medal">
+                                        <div class="card-body">
+                                            <h3 class="mb-75 mt-2 pt-50">
+                                                <a href="javascript:void(0);">Unit</a>
+                                            </h3>
+                                            <p class="card-text font-small-3">Lihat untuk mengetahui lebih lanjut</p>
+                                            <h3 class="mb-75 mt-2 pt-50">
+                                                <a href="javascript:void(0);">151</a>
+                                            </h3>
+                                            <button type="button" class="btn btn-primary">Lihat</button>
+                                            <img src="../../vendor/app-assets/images/illustration/badge.svg" class="congratulation-medal" alt="Medal Pic" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/ Medal Card -->
+
+                                <!-- Medal Card -->
+                                <div class="col-xl-6 col-md-6 col-12">
+                                    <div class="card card-congratulation-medal">
+                                        <div class="card-body">
+                                            <h3 class="mb-75 mt-2 pt-50">
+                                                <a href="javascript:void(0);">Negara</a>
+                                            </h3>
+                                            <p class="card-text font-small-3">Lihat untuk mengetahui lebih lanjut</p>
+                                            <h3 class="mb-75 mt-2 pt-50">
+                                                <a href="javascript:void(0);">50</a>
+                                            </h3>
+                                            <button type="button" class="btn btn-primary">Lihat</button>
+                                            <img src="../../vendor/app-assets/images/illustration/badge.svg" class="congratulation-medal" alt="Medal Pic" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/ Medal Card -->
                             </div>
+                            <!-- </div> -->
                         </div>
-                        <!--/ Medal Card -->
                     </div>
                 </section>
-                  <!-- Basic Tables start -->
+                <!-- Basic Carousel And Optional Carousel start end -->
+                <!-- Basic Tables start -->
                 <div class="row" id="basic-table">
                     <div class="col-12">
                         <div class="card">
@@ -192,7 +271,7 @@ include "../../layout/header.php";
                                             </td>
                                             <td>Memorandum of Agreement (MoA)</td>
                                             <td>
-                                              <p>PERJANJIAN KERJA SAMA ANTARA PROGRAM STUDI S1</p>
+                                                <p>PERJANJIAN KERJA SAMA ANTARA PROGRAM STUDI S1</p>
                                             </td>
                                             <td><span class="badge badge-pill badge-light-primary mr-1">Fakultas Ekonomi Bisnis</span></td>
                                             <td><span class="badge badge-pill badge-light-primary mr-1">Active</span></td>
@@ -232,10 +311,10 @@ include "../../layout/header.php";
     <div class="sidenav-overlay"></div>
     <div class="drag-target"></div>
 
-    <?php 
+    <?php
     include "../../layout/footer.php";
     ?>
-    
+
 </body>
 <!-- END: Body-->
 
