@@ -192,61 +192,52 @@ include "../layout/header.php";
       </div>
 
       <div class="content-body">
-        <div class="row">
-          <div class="col-12">
-            <div class="card">
-              <div class="card-header border-bottom">
-                <h4 class="card-title"></h4>
-                <div class="demo-inline-spacing">
-                  <button type="button" class="btn btn-sm btn-gradient-info" data-bs-toggle="modal" data-bs-target="#default" id="tambah"><i data-feather="plus"></i>
-                    Tambah
-                  </button>
+        <!-- Responsive Datatable -->
+        <section id="responsive-datatable">
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-header border-bottom">
+                  <h4 class="card-title">Responsive Datatable</h4>
                 </div>
-              </div>
-              <div class="card-datatable card-body">
-                <table id="myTable" class="table table-striped ">
-                  <thead>
-                    <tr>
-                      <th>No</th>
-                      <th>Nama Negara</th>
-                      <th>Dibuat (Wib)</th>
-                      <th>Aksi</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                  </tbody>
-                </table>
+                <div class="card-datatable">
+                  <table class="dt-responsive table">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Post</th>
+                        <th>City</th>
+                        <th>Date</th>
+                        <th>Salary</th>
+                        <th>Age</th>
+                        <th>Experience</th>
+                        <th>Status</th>
+                      </tr>
+                    </thead>
+                    <tfoot>
+                      <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Post</th>
+                        <th>City</th>
+                        <th>Date</th>
+                        <th>Salary</th>
+                        <th>Age</th>
+                        <th>Experience</th>
+                        <th>Status</th>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!--/ Column Search -->
+        </section>
+        <!--/ Responsive Datatable -->
 
-        <!-- Modal -->
-        <div class="modal fade text-start" id="default" tabindex="-1" aria-labelledby="myModalLabel1" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h4 class="modal-title" id="judulModal">Inline Login Form</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <form action="" method="post">
-                <input type="hidden" name="_token" value="TBBYZ7LMNSxhBmonxlWK3ECRa6LGTURPNVY58bQt">
-                <input type="hidden" name="id" id="id" class="form-control" />
-                <div class="modal-body">
-                  <label>Nama Negara</label>
-                  <div class="mb-1">
-                    <input type="text" name="nama_negara" id="nama_negara" placeholder="Masukkan Nama Negara" class="form-control" required />
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                  <button type="submit" class="btn btn-primary">Save</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>

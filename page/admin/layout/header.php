@@ -16,6 +16,8 @@
 
   <!-- BEGIN: Vendor CSS-->
   <link rel="stylesheet" type="text/css" href="../../../vendor/app-assets/vendors/css/vendors.min.css">
+  <link rel="stylesheet" type="text/css" href="../../../vendor/app-assets/vendors/css/tables/datatable/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" type="text/css" href="../../../vendor/app-assets/vendors/css/tables/datatable/responsive.bootstrap4.min.css">
   <link rel="stylesheet" type="text/css" href="../../../vendor/app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
   <!-- <link rel="stylesheet" type="text/css" href="../../../vendor/app-assets/vendors/css/extensions/toastr.min.css"> -->
   <!-- END: Vendor CSS-->

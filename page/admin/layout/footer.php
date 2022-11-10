@@ -8,6 +8,10 @@
 <!-- BEGIN: Page Vendor JS-->
 <!-- <script src="../vendor/app-assets/vendors/js/vendors.min.js"></script> -->
 <script src="../../../vendor/app-assets/vendors/js/ui/jquery.sticky.js"></script>
+<script src="../../../vendor/app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js"></script>
+<script src="../../../vendor/app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js"></script>
+<script src="../../../vendor/app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
+<script src="../../../vendor/app-assets/vendors/js/tables/datatable/responsive.bootstrap4.js"></script>
 <!-- END: Page Vendor JS-->
 
 <!-- BEGIN: Theme JS-->
@@ -40,11 +44,16 @@
 <!-- BEGIN: Theme JS-->
 <script src="../../../vendor/app-assets/js/core/app-menu.js"></script>
 <script src="../../../vendor/app-assets/js/core/app.js"></script>
+<script src="../../../vendor/app-assets/js/scripts/fontawesome/all.js" data-auto-replace-svg="nest"></script>
 <!-- END: Theme JS-->
 
+<script src="../../../vendor/app-assets/vendors/js/forms/select/select2.full.min.js"></script>
+<script src="../../../vendor/app-assets/js/scripts/forms/form-select2.js"></script>
 <!-- BEGIN: Page JS-->
 <script src="../../../vendor/app-assets/js/scripts/charts/chart-chartjs.js"></script>
+<script src="../../../vendor/app-assets/js/scripts/tables/table-datatables-advanced.js"></script>
 <!-- END: Page JS-->
+
 
 <script>
   $(window).on('load', function() {
@@ -65,22 +74,22 @@
       radarChartEx = $('.radar-chart-ex'),
       polarAreaChartEx = $('.polar-area-chart-ex');
 
-      // Color Variables
-      var primaryColorShade = '#836AF9',
-        yellowColor = '#ffe800',
-        successColorShade = '#28dac6',
-        warningColorShade = '#ffe802',
-        warningLightColor = '#FDAC34',
-        infoColorShade = '#299AFF',
-        greyColor = '#4F5D70',
-        blueColor = '#2c9aff',
-        blueLightColor = '#84D0FF',
-        greyLightColor = '#EDF1F4',
-        tooltipShadow = 'rgba(0, 0, 0, 0.25)',
-        lineChartPrimary = '#666ee8',
-        lineChartDanger = '#ff4961',
-        labelColor = '#6e6b7b',
-        grid_line_color = 'rgba(200, 200, 200, 0.2)'; // RGBA color helps in dark layout
+    // Color Variables
+    var primaryColorShade = '#836AF9',
+      yellowColor = '#ffe800',
+      successColorShade = '#28dac6',
+      warningColorShade = '#ffe802',
+      warningLightColor = '#FDAC34',
+      infoColorShade = '#299AFF',
+      greyColor = '#4F5D70',
+      blueColor = '#2c9aff',
+      blueLightColor = '#84D0FF',
+      greyLightColor = '#EDF1F4',
+      tooltipShadow = 'rgba(0, 0, 0, 0.25)',
+      lineChartPrimary = '#666ee8',
+      lineChartDanger = '#ff4961',
+      labelColor = '#6e6b7b',
+      grid_line_color = 'rgba(200, 200, 200, 0.2)'; // RGBA color helps in dark layout
 
     // Detect Dark Layout
     if ($('html').hasClass('dark-layout')) {
